@@ -47,9 +47,12 @@ body:
 - type: markdown
   attributes:
     value: |
-      **WE NEED A SAMPLE REPORT** to reproduce and fix the issue.
+      **Sample Report**
       
-      Please send a sample report to [support@okviz.com](mailto:support@okviz.com?subject=GitHub%20Issue%20]
+      We need a sample report to reproduce and fix the issue.  
+      Please send a sample report to <support@okviz.com>.
+
+      **DO NOT ATTACH A SAMPLE REPORT HERE!**
 - type: textarea
   attributes:
     label: Screenshot
