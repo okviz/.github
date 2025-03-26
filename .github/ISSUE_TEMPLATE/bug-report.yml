@@ -44,12 +44,12 @@ body:
       4. See error...
   validations:
     required: false
-- type: textarea
+- type: markdown
   attributes:
-    label: Sample report
-    description: Include a sample report (.PBIX zipped as .ZIP file) that reproduces the issue. If the report contains private data, please recreate the issue in a sample report with dummy data or send it us at support@okviz.com. **If your report loads the visual from the Organizational Store, you should replace it with the AppSource version.** 
-  validations:
-    required: true
+    value: |
+      **WE NEED A SAMPLE REPORT** to reproduce and fix the issue.
+      
+      Please send a sample report to [support@okviz.com](mailto:support@okviz.com?subject=GitHub%20Issue%20]
 - type: textarea
   attributes:
     label: Screenshot
