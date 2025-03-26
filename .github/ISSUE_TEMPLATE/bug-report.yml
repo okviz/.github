@@ -33,17 +33,6 @@ body:
     description: Enter the specific Power BI version used.
   validations:
     required: false
-- type: textarea
-  attributes:
-    label: Steps To Reproduce
-    description: Steps to reproduce the behavior.
-    placeholder: |
-      1. In this environment...
-      2. With this config...
-      3. With these options...
-      4. See error...
-  validations:
-    required: false
 - type: markdown
   attributes:
     value: |
@@ -52,7 +41,7 @@ body:
       We need a sample report to reproduce and fix the issue.  
       Please send a sample report to <support@okviz.com>.
 
-      **DO NOT ATTACH A SAMPLE REPORT HERE!**
+      **--- DO NOT ATTACH A SAMPLE REPORT HERE! ---**
 - type: textarea
   attributes:
     label: Screenshot
